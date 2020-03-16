@@ -1,16 +1,14 @@
-# This repository contains the source code of the web panel I have used in my book series of books: Cyber and Penetration Testing – Web Penetration Testing.
+# Este repositório contém o código-fonte do painel da Web que usei na minha série de Cursos: Teste de Invasão Web.
 
-Intro:
+Introduçāo:
 ---------------
-
-Link to the book: https://www.amazon.com/dp/1096435497
 
 Screenshot:
 ![alt tag](https://raw.githubusercontent.com/romanzaikin/Owasp-TOP-10-Training-Panel/master/panel.PNG)
 
-If you still want to use this panel and you don't have the book, Here is the steps to to setup the panel:
+Se você ainda deseja usar este painel e não possui o curso, siga estas etapas para configurar o painel:
 
-Tools you will need to Download in order to solve the challenges:
+Ferramentas que você precisará fazer o download para resolver os desafios:
 -----------------
 1. Burp Suit: https://portswigger.net/burp/communitydownload
 2. Sqlmap:	https://github.com/sqlmapproject/sqlmap
@@ -18,33 +16,23 @@ Tools you will need to Download in order to solve the challenges:
 4. python: https://www.python.org/downloads/
 
 
-Setup:
+Instalaçāo:
 -----------------
-1. Download xampp on your windows computer: https://www.apachefriends.org/download.html
-2. Move all the repository files to the folder: C:\xampp\htdocs
-3. Start xampp mysql and apache in the xampp software.
-4. Open your browser at http://127.0.0.1/phpmyadmin
+1. Faça Download do xampp no seu windows: https://www.apachefriends.org/download.html
+2. Mova todos os arquivos do repositório para a pasta: C:\xampp\htdocs
+3. Inicie o xampp mysql e o apache no software xampp.
+4. Abra seu browser no http://127.0.0.1/phpmyadmin
+   1. Crie uma base de dados chamada "sqli" 
+   2. Pressione na nova base de dados "sqli"
+   3. Pressione na aba "import"
+   4. Selecione o seguinte arquivo: C:\xampp\htdocs\challenge\SQLI\sqli.sql
+   5. Pressione "Go"
+   6. Crie uma base de dados chamada "forum" 
+   7. Pressione na nova base de dados "forum"
+   8. Pressione na aba "import"
+   9. Selecione o seguinte arquivo: C:\xampp\htdocs\forum\forum.sql
+   10. Pressione "Go"
 
-4.1. Create the database "sqli" 
+5. Abra os Desafios: http://127.0.0.1/challenge/
 
-4.1.1. press on the database "sqli"
-
-4.1.2. press on the import tab
-
-4.1.3. select the following file: C:\xampp\htdocs\challenge\SQLI\sqli.sql
-
-4.1.4. press "Go"
-
-4.2. Create the database "forum" 
-
-4.2.1. press on the database "forum"
-
-4.2.2. press on the import tab
-
-4.2.3. select the following file: C:\xampp\htdocs\forum\forum.sql
-
-4.2.4. press "Go"
-
-5. Open the challenge: http://127.0.0.1/challenge/
-
-Have Fun!
+Divirta-se
